@@ -15,5 +15,14 @@ pub fn greeting() {
     // Print elements of tups2
     println!("tups2: ({}, {}, \"{}\")", tups2.0, tups2.1, tups2.2);
     println!("tups3: {:?}", tups3);
+    //String
+    let letter = String::from("i am a letter");
+    println!("{}", letter);
+
+   
+
+    let yello: i32 = 100;
+    let thing2: i32 = 200 + yello;
+    println!("{thing2}" )
 
 }

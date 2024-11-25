@@ -11,9 +11,10 @@ fn main() {
     println!("x + y is = {}", x + y);
 
 //CHAR and &str are different
-    //str accepts letters
+    //str accepts letters and is unmutable 
     const NUMBER: &str = "i am the number:";
     println!("{}",  NUMBER);
+    
     //char accepts anything if used with single element quotation mark 
     let character: char = 'A';
     println!("{}", character);
